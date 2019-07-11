@@ -6,17 +6,17 @@ Carator is an organization for Accounting professionals. This is a application w
 2. Install `virtualenvwrapper` and add it to your terminal path.
 3. Clone the repository and create the virtual environment
     ```
-      $ git clone https://github.com/abhishekbvs/equipos-backend.git
-      $ cd blog-aggregator
-      $ mkvirtualenv --python=python3 equipos
-      $ workon equipos
+      $ git clone https://github.com/abhishekbvs/carator-backend.git
+      $ cd carator-backend
+      $ mkvirtualenv --python=python3 carator
+      $ workon carator
     ```
 4. Install the dependencies from `requirements.txt`
     ```
       $ pip install -r requirements.txt
     ```
 ### Running the Application
-1. Start the virtual environment `workon equipos`
+1. Start the virtual environment `workon carator`
 2. Set up the database
     ```
       python manage.py migrate
